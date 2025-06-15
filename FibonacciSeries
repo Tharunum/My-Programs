@@ -1,4 +1,4 @@
-class FibonacciSeries {
+class FibonacciSeries {                     //fibonacci series-->starts from 0 & 1 & next digit is sum of previous 2 numbers
     public static void main(String[] args) {
    int n=10;
    int a=0,b=1;
