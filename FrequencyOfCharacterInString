@@ -1,0 +1,13 @@
+class FrequencyOfCharacterInString {
+    public static void main(String[] args) {
+        String s="Tharunum";
+    char ch='u';
+    int freq=0;
+    for(int i=0;i<s.length();i++){
+        if(ch==s.charAt(i)){
+            freq++;
+        }
+    }
+    System.out.println(freq);
+    }
+}
