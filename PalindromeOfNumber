@@ -1,0 +1,18 @@
+class PalindromeOfNumber {                 //palindome-->The reserve of a number is same as the given number
+    public static void main(String[] args) {
+    int n=121;
+    int original=n;
+    int rev=0,rem;
+    while(n!=0){
+        rem=n%10;
+        rev=rev*10+rem;
+        n=n/10;
+    }
+   if(original==rev){
+       System.out.println("num is palindrome");
+   }
+   else{
+       System.out.println("num is not palindrome");
+   }
+      }
+    }
